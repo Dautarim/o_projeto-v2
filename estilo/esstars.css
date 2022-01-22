@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Slim&display=swap');
+
+body{
+
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../img/back2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+  
+
+}
+header{
+
+    background: rgba(255, 255, 255, 0.1);
+    color: rgb(255, 255, 255);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    padding: 20px;
+    border-radius:0px 0px 10px 10px;
+    border: 5px solid rgba(255, 255, 255, 0);
+    box-shadow: 0px 0px 10px rgba(3, 3, 3, 0.1);
+    text-align: center;
+    
+    
+}
+header > h1{
+    font-family: 'Nova Slim', cursive;
+    font-size: 3em;
+    text-shadow: 0px 0px 5px rgb(154, 2, 255);
+}
+header > p{
+    margin: auto;
+    max-width: 500px;
+    min-width: 200px;
+}
+
+
+nav
+{
+    background-image: linear-gradient(to left, transparent,rgb(154, 2, 255),transparent);
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 0;
+    padding: 10px;
+}
+.nave{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to left, transparent,rgb(213, 2, 255),transparent);
+    margin: 10px;
+    padding: 7px;
+    
+    transition-duration: 0.5s;
+  
+    font-weight: bold;
+}
+.nave#ph:hover{
+    background-image: linear-gradient(to left, transparent,rgba(209, 255, 2, 0.692),transparent);
+    box-shadow: 0px 0px 0px rgba(54, 54, 54, 0.644);
+    color: black;
+}
+
+.nave#xn:hover{
+    background-image: linear-gradient(to left, transparent,rgba(2, 6, 255, 0.678),transparent);
+    box-shadow: 0px 0px 0px rgba(54, 54, 54, 0.644);
+    color: black;
+}
+
+.nave#xv:hover{
+    background-image: linear-gradient(to left, transparent,rgba(255, 2, 2, 0.699),transparent);
+    box-shadow: 0px 0px 0px rgba(54, 54, 54, 0.644);
+    color: black;
+}
+
+.nave#rt:hover{
+    background-image: linear-gradient(to left, transparent,rgba(253, 253, 253, 0.685),transparent);
+    box-shadow: 0px 0px 0px rgba(54, 54, 54, 0.644);
+    color: black;
+}
+
+main{
+    
+    max-width: 1090px;
+    min-width: 250px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgb(255, 255, 255);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    padding: 10px;
+    margin: auto;
+  
+    
+}
+
+section{
+    text-align: center;
+}
+main a{
+    
+    display: inline-block;
+    width: 180px;
+    height: 200px;
+    background-color: black;
+    margin: 5px;
+    border-radius: 5px;
+    text-indent: 7px;
+    transition-duration: 0.3s;
+
+}
+
+main a:hover{
+    box-shadow: 0px 0px 17px rgb(154, 2, 255);
+    
+}
+
+a>p{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 99%;
+    margin-bottom: 0;
+    background-image: linear-gradient(to left, transparent,rgb(154, 2, 255),transparent);
+}
+
+
+a#lela{
+
+    background-image: url('https://cdni.pornpics.de/460/7/102/86934008/86934008_038_cade.jpg');
+    background-position: top center;
+    background-size: cover;  
+     
+}
+
+a#veronica{
+
+    background-image: url('https://images.hqseek.com/pictures/hardx11/06.jpg');
+    background-position: top center;
+    background-size: cover;  
+     
+}
+
+a#cristal{
+
+    background-image: url('https://camporn.to/contents/videos_screenshots/109000/109802/preview.jpg');
+    background-position: top center;
+    background-size: cover;  
+     
+}
+
+a#kendra{
+
+    background-image: url('https://static-ca-cdn.eporner.com/gallery/nh/p7/BxmEF1Qp7nh/688850-gorgeous-kendra-lust-with-huge-boobs-as-model-with.jpg');
+    background-position: top center;
+    background-size: cover;  
+     
+}
+a#lisa{
+
+    background-image: url('https://i.redd.it/wlqhe1xhr3481.jpg');
+    background-position: top center;
+    background-size: cover;  
+     
+}
+a#rose{
+
+    background-image: url('https://cdni.pornpics.com/460/7/106/11549282/11549282_020_33c6.jpg');
+    background-position: top center;
+    background-size: cover;  
+     
+}
+a#coner{
+
+    background-image: url('https://tn.upornia.com/contents/models/83932/r240x400_1.jpg');
+    background-position: top center;
+    background-size: cover;  
+     
+}
+
+a#smiles{
+
+    background-image: url('https://content5.hotstunners.com/upload/main/45/4301724.jpg');
+    background-position: center center;
+    background-size: cover;  
+     
+}
+
+a#rox{
+
+    background-image: url('https://img05.barelist.com/images/hosted/tgp/rachel-roxx-102912/pics/rachel-roxxx-gets-fucked-on-the-desk-in-nude-stockings-5.jpg');
+    background-position: top center;
+    background-size: cover;  
+     
+}
+
+a#bb{
+
+    background-image: url('https://img.barelist.com/images/hosted/tgp/bridgette-b-111215/pics/bridgette-b-gets-nailed-in-bed-in-garter-and-nude-stockings-5.jpg');
+    background-position: top center;
+    background-size: cover;  
+     
+}
+
+a#angela{
+
+    background-image: url('https://www.pandesiaworld.com/wp-content/uploads/ANGELA-WHITE-new-naked-photos-2.jpg');
+    background-position: top center;
+    background-size: cover;  
+     
+}
+
+a#lunas{
+
+    background-image: url('https://static-ca-cdn.eporner.com/gallery/E3/cs/4Y9baqQcsE3/340632-luna-star-nude.jpg');
+    background-position: top center;
+    background-size: cover;  
+     
+}
+
+a#ivy{
+
+    background-image: url('https://fitnudegirls.com/wp-content/uploads/2020/11/FitNakedGirls.com-Madison-Ivy-nude-11.jpg');
+    background-position: top center;
+    background-size: cover;  
+     
+}
+
+a#ariana{
+
+    background-image: url('https://static3.definebabe.com/t/ps/1/28/1009687_normal.jpg');
+    background-position: top center;
+    background-size: cover;  
+     
+}
+
+a#nixon{
+
+    background-image: url('http://tse3.explicit.bing.net/th?id=OIP._yHtSJM9WrunWe0r4PasJQAAAA');
+    background-position: top center;
+    background-size: cover;  
+     
+}
+
+a#peta{
+
+    background-image: url('https://cdn.r18hub.com/pornpicsi/1280/5/150/50506663/50506663_012_6952.jpg');
+    background-position: top center;
+    background-size: cover;  
+     
+}
+
+a#ava{
+
+    background-image: url('https://cdn.picson.mobi/original/597/211309/5.jpg');
+    background-position: top center;
+    background-size: cover;  
+     
+}
+
+a#fasser{
+
+    background-image: url('https://content6.silkengirl.net/upload/main/106/4755521.jpg');
+    background-position: top center;
+    background-size: cover;  
+     
+}
+
+a#antonela{
+
+    background-image: url('https://static-vz.brazzerscontent.com/models/4891/model-large.jpg');
+    background-position: top center;
+    background-size: cover;  
+     
+}
+
+a#moriah{
+
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfuNt0Li70ihMUlsRuZ-yv57IX2Q4snwy5Wm9PzSHfXHGmSagDNM0MjvI5Y63Q295BUGQ&usqp=CAU');
+    background-position: top center;
+    background-size: cover;  
+     
+}
+
+a#halle{
+
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV_Iy0o4gQvaPvENZ_qyj4VjaQe2A7Tq5RtY07_yR1RvmFt6NXKStuKv6JJuPbkS6hzqE&usqp=CAU');
+    background-position: top center;
+    background-size: cover;  
+     
+}
+
+a#yum{
+
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.eb3i6xM5oV7TMBJtDf946QAAAA&pid=15.1');
+    background-position: top center;
+    background-size: cover;  
+     
+}
+
+a#raquel{
+
+    background-image: url('https://cdn.erocurves.com/wp-content/uploads/2020/08/21/miss-raquel-oiled-latin-milf.jpg');
+    background-position: top center;
+    background-size: cover;  
+     
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(26, 25, 25);
+    margin-top: 10px;
+   margin-bottom: 0;
+   padding: 10px;
+   box-shadow: -5px 0px 10px blueviolet;
+}
+footer a{
+
+    margin-top: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-image: linear-gradient(to left, purple,transparent);
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+
+footer a:hover{
+    background-image: linear-gradient(to right, purple,transparent);
+    box-shadow: -3px 0px 3px rgba(137, 43, 226, 0.568);
+    font-weight: bold;
+    color: rgba(255, 0, 255, 0.692);
+}
+
+footer p{
+    padding: 10px;
+    font-weight: bold;
+    font-style: italic;
+
+}
