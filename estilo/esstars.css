@@ -51,34 +51,40 @@ nav
 .nave{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    background-image: linear-gradient(to left, transparent,rgb(213, 2, 255),transparent);
+    background: rgba(255, 255, 255, 0.1);
+    color: rgb(255, 255, 255);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    
     margin: 10px;
     margin-left: 15px;
     padding: 7px; 
-    transition-duration: 0.5s;
+    border-radius: 7px;
+    transition-duration: 0.4s;
     font-weight: bold;
 }
+
 .nave#ph:hover{
-    background-image: linear-gradient(to left, transparent,rgb(252, 166, 6),transparent);
-    box-shadow: 0px 0px 0px rgba(54, 54, 54, 0.644);
+    background-color:rgb(252, 166, 6);
+    box-shadow: 0px 3px 5px rgba(54, 54, 54, 0.911);
     color: black;
 }
 
 .nave#xn:hover{
-    background-image: linear-gradient(to left, transparent,rgba(2, 6, 255, 0.678),transparent);
-    box-shadow: 0px 0px 0px rgba(54, 54, 54, 0.644);
-    color: black;
+    background-color: blue;
+    box-shadow: 0px 3px 5px rgba(54, 54, 54, 0.911);
+   
 }
 
 .nave#xv:hover{
-    background-image: linear-gradient(to left, transparent,rgba(255, 2, 2, 0.699),transparent);
-    box-shadow: 0px 0px 0px rgba(54, 54, 54, 0.644);
+    background-color: rgb(209, 10, 10);
+    box-shadow: 0px 3px 5px rgba(54, 54, 54, 0.911);
     color: black;
 }
 
 .nave#rt:hover{
-    background-image: linear-gradient(to left, transparent,rgba(253, 253, 253, 0.685),transparent);
-    box-shadow: 0px 0px 0px rgba(54, 54, 54, 0.644);
+    background-color: rgb(244, 244, 245);    
+    box-shadow: 0px 3px 5px rgba(54, 54, 54, 0.911);
     color: black;
 }
 
@@ -329,7 +335,6 @@ footer a{
 
 footer a:hover{
     background-image: linear-gradient(to right, purple,transparent);
-    box-shadow: -3px 0px 3px rgba(137, 43, 226, 0.568);
     font-weight: bold;
     color: rgba(255, 0, 255, 0.692);
 }
