@@ -345,3 +345,40 @@ footer p{
     font-style: italic;
 
 }
+::-webkit-scrollbar{
+    width: 0;
+}
+
+#pageheight{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 8px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.151);
+    z-index: 1;
+}
+
+#pagehscroll{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 8px;
+   /* height: 100%;*/
+    background: linear-gradient(to top, #008aff,#0FFCE9);
+    z-index: 1;
+    animation: animando 5s linear infinite;
+}
+
+@keyframes  animando{
+
+    0%, 100%{
+        filter: hue-rotate(0deg);
+    }
+
+    50%{
+        filter: hue-rotate(360deg);
+    }
+
+}
+

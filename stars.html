@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="estilo/esstars.css">
 </head>
 <body>
+    <div id="pageheight"></div>
+    <div id="pagehscroll"></div>
     <header>
         <h1>VIP STARS</h1>
         <p>Seja muito, muito bem-vindo a nossa humilde página, deleite-se com as beldades que apresentamos parate aquecer, e depois pode partir pra ação, no site da sua preferencia. Aproveite</p>
@@ -76,5 +78,16 @@
         <a href="index.html">🔙 INICIO</a>
         <p>Página 100% feita por  &copy;Docinho,  aproveite...</p>
     </footer>
+
+    <script>
+        let scrol = document.getElementById("pagehscroll")
+        let alturatotal = document.body.scrollHeight - window.innerHeight
+
+        window.onscroll = function(){
+                let alutdoprogresso = (window.pageYOffset / alturatotal * 100)
+
+                pagehscroll.style.height = alutdoprogresso + '%' 
+            }
+    </script>
 </body>
 </html>
