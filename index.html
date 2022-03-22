@@ -14,8 +14,8 @@
         <h1 id="titulo">Tens mais de 18 anos?</h1>
         <p id="paragrafo">Essa página é para adultos, então confirme se tens idade suficiente pra entrar na nossa página</p>
      <span>
-        <a href="stars.html" id="sim" >SIM</a>
-        <a href="https://www.youtube.com/" id="nao">NÃO</a>
+        <a href="stars.html" id="sim" class="bot" >SIM</a>
+        <a href="https://www.youtube.com/" id="nao" class="bot">NÃO</a>
      </span>   
     
 
@@ -24,9 +24,11 @@
     <script type="text/javascript" src="vanilla-tilt.js"></script>
     <script type="text/javascript">
         VanillaTilt.init(document.querySelector("main"), {
-            max: 25,
+            max: 15,
             speed: 400,
-            glare: true
+            "max-glare": 1,
+            glare: false
+
         });
         
         //It also supports NodeList

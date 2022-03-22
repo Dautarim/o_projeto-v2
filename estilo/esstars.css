@@ -66,26 +66,36 @@ nav
 
 .nave#ph:hover{
     background-color:rgb(252, 166, 6);
-    box-shadow: 0px 3px 5px rgba(54, 54, 54, 0.911);
-    color: black;
 }
 
 .nave#xn:hover{
     background-color: blue;
-    box-shadow: 0px 3px 5px rgba(54, 54, 54, 0.911);
    
 }
 
 .nave#xv:hover{
     background-color: rgb(209, 10, 10);
-    box-shadow: 0px 3px 5px rgba(54, 54, 54, 0.911);
-    color: black;
 }
 
 .nave#rt:hover{
-    background-color: rgb(244, 244, 245);    
-    box-shadow: 0px 3px 5px rgba(54, 54, 54, 0.911);
-    color: black;
+    background-color: rgb(226, 4, 255);    
+}
+.nave:hover
+{
+    box-shadow: 0px 3px 5px rgb(255, 2, 2);
+    animation: brilhoo 4s linear infinite;
+}
+
+@keyframes brilhoo
+{
+    0%,100%
+    {
+        filter: hue-rotate(0deg);
+    }
+    50%
+    {
+        filter: hue-rotate(360deg);
+    }
 }
 
 main{
@@ -119,9 +129,24 @@ main a{
 }
 
 main a:hover{
-    box-shadow: 0px 0px 17px rgb(154, 2, 255);
-    
+
+    box-shadow: 0px 0px 23px rgb(154, 2, 255);
+    animation: brilho .9s linear infinite;
 }
+
+@keyframes brilho
+{
+    0%,100%
+    {
+        box-shadow: 0px 0px 17px rgb(154, 2, 255);
+    }
+    50%
+    {
+        box-shadow: 0px 0px 17px rgb(255, 2, 234);
+    }
+}
+
+
 
 a>p{
     color: white;

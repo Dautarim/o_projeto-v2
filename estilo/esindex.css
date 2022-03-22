@@ -25,14 +25,26 @@ main{
     border-radius: 10px;
     border: 5px solid rgba(255, 255, 255, 0);
     box-shadow: 0px 0px 10px rgba(3, 3, 3, 0.459);
+
+    transform-style: preserve-3d;
+    perspective: 700px;
     
     text-align: center;
     
     
 }
+
+main:hover h1#titulo
+{
+    transform: scale(1.50) translateZ(50px);
+}
+
+
+
 h1{
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.24);
     font-size: 2.4em;
+    transition: .4s;
 }
 p{
     text-shadow: 2px 2px 3px rgba(37, 37, 37, 0.363);
@@ -43,9 +55,11 @@ span{
     margin: auto;
 }
 
+
+
 a#sim{
     padding: 15px;
-    font-size: 1em;
+    font-size: 1.5em;
     margin-right: 20px;
     border-radius: 5px;
     text-decoration: none;
@@ -54,16 +68,18 @@ a#sim{
     transition-duration: .4s;
 }
 a#sim:hover{
+
     background-image: linear-gradient(to left, rgb(2, 245, 14) ,transparent);
     box-shadow: 2px 0px 3px rgb(21, 255, 0);;
     color: black;
     font-weight: bold;
+    
 
 }
 
 a#nao{
     padding: 15px;
-    font-size: 1em;
+    font-size: 1.5em;
     margin-left: 20px;
     border-radius: 5px;
     text-decoration: none;
@@ -79,3 +95,8 @@ a#nao:hover{
 
 }
 
+
+::-webkit-scrollbar
+{
+    width: 0;
+}
